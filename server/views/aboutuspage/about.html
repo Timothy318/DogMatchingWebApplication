@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang = "en" dir="ltr">
+    <head>
+        <title>About Us</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="/about/about.css">
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+    </head>
+    <body>
+                    <nav id="navbar">
+            <table id="headertable" cellspacing="15px">
+                <td><a href="/cardflip" id="appname"><h>MATCHPAW</h></a></td>
+                <td><h id="processname">ABOUT US</h></td>
+            </table>
+            <table id="navitable" cellspacing="5px">
+                <td><a href="/about">ABOUT</a></td>
+                <td><a href="/adoption">ADOPT</a></td>
+                <td><a href="/dogforadoption">SHELTER</a></td>
+                <td><a onclick="userprofile();">PROFILE</a></td>
+                <td><a href="/matchedusers">MATCHES</a></td>
+                <td><p id=matchalerts></p></td>
+                <td><a href="/" onclick="logout()">SIGN OUT</a></td>
+            </table>
+
+        </nav>
+
+        <div id="headerImage" 
+            style="width: 100%; height:400px; 
+                background-image: url(/about/images/home2Cropped.jpg); background-size: cover;"
+        >
+            <div id="overlay">
+                <div id="overlayText">Match Paws</div>
+            </div>
+        </div>
+
+        <section class="title">
+            <h3 style="margin:0; font-size: 35px; font-weight: bold; color:#7b6db6;">About Us</h3>
+        </section>
+        <p id="about">
+            Match Paws is ALL about you and your pet. Whether you have one or are looking for your new best friend, 
+            we're here to help! 
+        </p>
+        <p>
+            Our team came together to help both owners and their animals become the best they can be.
+            Our matching system will help you find your new best friend. And if you already have a dog, show him/her off in our friendly community!
+            MatchPaws will forge an unbreakable bond between you and your pet.
+        </p>
+
+        <section class="title">
+            <h3 style="margin:0; font-size: 35px; font-weight: bold; color:#7b6db6;">Meet the Team</h3>
+        </section>
+        <section id="team">
+            <section class="team_member">
+                <section class="pic"></section>
+                <h2 class="name">Eric Huang</h2>
+                <section class="info">
+                    Eric cares a lot for animals. He volunteers at an animal shelter and helps potential new 
+                    owners find their new best-friend.
+                </section>
+            </section>
+
+            <section class="team_member">
+                <section class="pic" style="background-image: url(/about/images/p1.jpg);"></section>
+                <h2 class="name">Orion Hsu</h2>
+                <section class="info">
+                    CompSci student at day, pro-leet hacker at night.
+                </section>
+            </section>
+
+            <section class="team_member">
+                <section class="pic"></section>
+                <h2 class="name">Seulgee Jang</h2>
+                <section class="info">
+                    Badass
+                </section>
+            </section>
+
+            <section class="team_member">
+                <section class="pic"></section>
+                <h2 class="name">Timothy Wai-Kin Lam</h2>
+                <section class="info">
+                    I like dogs.
+                </section>
+            </section>
+            
+            <section class="team_member">
+                <section class="pic"></section>
+                <h2 class="name">Yoonhong Lee</h2>
+                <section class="info">
+                    4th Software systems student, CTO of the project, Korean Jesus, team-lead, name it.
+                </section>
+            </section>
+        </section>
+
+        <section class="title">
+            <h3 style="margin:0; font-size: 35px; font-weight: bold; color:#7b6db6;">Contact Us</h3>
+        </section>
+
+        <p id="Contact" style="margin-bottom:100px;">
+            We're always happy to help! Whatever the reason, just send an email to <b>team@MatchPaws.ca</b>! <br>
+            Or, if you would prefer help from other people in the MatchPaws community, feel free to visit our <a id=CommunityPage>community page</a>.
+            <!--TODO: add community page hyperlink inside that <a> tag-->
+        </p>
+
+		<footer>
+            <p style="text-align: center;">Match-Paws ©2020</p>
+            <a href="#navbar" style="position: absolute; top: 5px; right: 20px; font-size: 15px;">TOP</a>
+		</footer>
+    </body>
+
+<script src="/about/about.js"></script>
+</html> 

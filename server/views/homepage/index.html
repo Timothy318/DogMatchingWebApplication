@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "en" dir="ltr">
+<head>
+	<title>Match Paws</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/homestyle.css">
+</head>
+<body>
+	<header>
+	</header>
+	<main>
+		<section id="home">
+			<section id="title">
+				<h class="appname" id="appname" onclick="tologin();">MATCHPAWS</h>
+				<p id="appdesc">FIND YOUR BEST PAWFRIEND</p>
+			</section>
+
+			<section id = "loginbox" class="loginbox">
+			</section>
+			<section class="loginbox">
+
+				<form id="loginform" method="POST" action="/login">
+					<h class="appname" id="informappname" style="color:#7b6db6; font-size: 30px;">MATCHPAWS</h>
+					<input type="textbox" placeholder="Username" id="username" class="fillbox" required><br>
+					<input type="password" placeholder="Password" id="password" class="fillbox" required><br>
+
+					<button id="loginbutton">LOG IN</button><br> 
+					<!--
+					just button and no action for now
+					-->
+
+					<a href="/register" id="newaccount">CREATE NEW ACCOUNT</a>	
+					<!--
+					add other login methods(facebook, gmail etc)
+					-->
+				</form>
+				
+			</section>
+			
+		</section>                                                                            
+		</section>
+		<!--
+		<section>
+			<p id="about">
+			Match Paws is about you and your pet. Whether you already have a pet or are looking for your new best friend, 
+			we're here to help! <br> Create an account and get started TODAY!</p>
+		</section>
+		-->
+	</main>
+	<footer>
+		<p style="text-align: center;">Match-Paws ©2020</p>
+	</footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="homescript.js"></script>
+</html>
